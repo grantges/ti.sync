@@ -1,11 +1,13 @@
 
 
 [ti-badge]: http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png
+[alloy-badge]:http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png
+[alloy]:]http://www.appcelerator.com/alloy/
 [ti]: http://www.appcelerator.com/titanium/
 [gittio-badge]: http://gitt.io/badge.png
 [gittio-page]: http://gitt.io/component/it.smc.navitems
 
-Ti.Sync [![Built for Titanium SDK][ti-badge]][ti] [![Available through gitTio][gittio-badge]][gittio-page]
+Ti.Sync [![Built for Titanium SDK][ti-badge]][ti] [![Built for Alloy][alloy-badge]][alloy] 
 =======
 
 Keeping data in sync between multiple clients and backend datasources can be a major pain
