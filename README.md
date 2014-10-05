@@ -21,10 +21,18 @@ Keeping data in sync between multiple clients and backend datasources can be a m
 
 The end result allows the developer to quickly connect to other datasources without having to rebuilt the complexities of the managing the data locally.
 
+## Key Features
+
+* Flexible framework for rapidly building Backbone sync adapters for Appcelerator Titanium applications using the Alloy framework.
+* Leverage the Alloy model system to interact with remote data
+* Offline Cache of data
+* Policy Management for data synchronization
+    * Client Wins
+    * Server Wins
+    * Latest Timestamp Wins
 
 
-Usage
-=====
+## Installation & Usage
 
 Clone or download this repository to your local machine, then copy the `ti.sync.js` file and the `connectors` folder into your projects assets folder under `app/assets/alloy/sync`. By default, Ti.Sync comes with a prebuilt connector for [Appcelerator Cloud Services (ACS)][acs]. This connector is found in the connectors folder. Any additional connectors you build should be referenced from this folder.
 
@@ -44,7 +52,7 @@ MyProject
                   |
                   |-connectors    <-- Folder for any associated remote datasources connectors
                       |
-                      |-acs.js    <-- [Appcelerator Cloud Services Connector][acs]
+                      |-acs.js    <-- Appcelerator Cloud Services Connector
 
 ~~~
 
