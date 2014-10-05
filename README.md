@@ -4,6 +4,7 @@
 [alloy-badge]:http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png
 [alloy]:http://www.appcelerator.com/alloy/
 [ti]: http://www.appcelerator.com/titanium/
+[acs]:http://docs.appcelerator.com/cloud/latest/
 [gittio-badge]: http://gitt.io/badge.png
 [gittio-page]: http://gitt.io/component/it.smc.navitems
 
@@ -25,7 +26,7 @@ The end result allows the developer to quickly connect to other datasources with
 Usage
 =====
 
-Copy the `ti.sync.js` file into your projects assets folder under `app/assets/alloy/sync`. By default, the Ti.Sync comes with a prebuilt adapter for [Appcelerator Cloud Services (ACS)](http://docs.appcelerator.com/cloud/latest/)
+Clone or download this repository to your local machine, then copy the `ti.sync.js` file and the `connectors` folder into your projects assets folder under `app/assets/alloy/sync`. By default, Ti.Sync comes with a prebuilt connector for [Appcelerator Cloud Services (ACS)][acs]. This connector is found in the connectors folder. Any additional connectors you build should be referenced from this folder.
 
 ~~~
 
@@ -43,9 +44,11 @@ MyProject
                   |
                   |-connectors    <-- Folder for any associated remote datasources connectors
                       |
-                      |-acs.js
+                      |-acs.js    <-- [Appcelerator Cloud Services Connector][acs]
 
 ~~~
+
+
 
 
 
