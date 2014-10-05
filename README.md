@@ -2,7 +2,7 @@
 
 [ti-badge]: http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png
 [alloy-badge]:http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png
-[alloy]:]http://www.appcelerator.com/alloy/
+[alloy]:http://www.appcelerator.com/alloy/
 [ti]: http://www.appcelerator.com/titanium/
 [gittio-badge]: http://gitt.io/badge.png
 [gittio-page]: http://gitt.io/component/it.smc.navitems
